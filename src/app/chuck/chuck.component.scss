@@ -1,0 +1,50 @@
+#hero {
+    background:url('../../assets/img/chuck_norris_2x.png') -25px -50px;
+    position:fixed ;
+    top:0;
+    width:40%;
+    z-index:0;
+    height:100%;
+    background-size: calc(100% + 50px);
+    box-shadow: rgb(213, 213, 213) 10px 0px 18px;
+}
+.main {
+    text-align: center;
+    width: 60%;
+    float: right;
+    padding-top: 40px;
+}
+.mat-table, .mat-paginator {
+    background-color: rgba(255, 255, 255, 0);
+}
+.mat-paginator {
+    margin: 0 0 40px 0;
+}
+.mat-cell {
+    padding: 10px 0;
+}
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    cursor: pointer;
+}
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 20px;
+}
+@media screen and (max-width: 525px) {
+    #hero {
+        width: 20%;
+    }
+    .main {
+        width: 80%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
